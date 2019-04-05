@@ -1,4 +1,4 @@
-## 2.0.0 (Unreleased)
+## Unreleased
 
 ### New Features
 
@@ -13,6 +13,10 @@
 ### Breaking Changes
 
 - `CopyHandler` will now only catch cut/copy events coming from its `props.children`, instead of from anywhere in the `document`.
+
+### Internal
+
+- Refactored `BlockSettingsMenu` to use `DropdownMenu` from `@wordpress/components`.
 
 ## 1.0.0 (2019-03-06)
 
