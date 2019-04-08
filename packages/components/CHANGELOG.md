@@ -5,6 +5,7 @@
 - Added a new `render` property to `FormFileUpload` component. Allowing users of the component to custom the UI for their needs.
 - Added a new `BaseControl.VisualLabel` component.
 - Added a new `preview` prop to the `Placeholder` component which allows to display a preview, for example a media preview when the Placeholder is used in media editing contexts.
+- Added a new `noArrow` prop to the `Dropdown` component which allows to hide the arrow which visually indicates what the dropdown is anchored to.
 
 ### Bug fixes
 

@@ -47,6 +47,14 @@ If you want to target the dropdown menu for styling purposes, you need to provid
 - Type: `String`
 - Required: No
 
+### noArrow
+
+ Set this to hide the arrow which visually indicates what the dropdown is anchored to. Note that the arrow will not display if `position` is set to `"middle center"`.
+
+ - Type: `Boolean`
+ - Required: No
+ - Default: `false`
+
 ### position
 
 The direction in which the popover should open relative to its parent node. Specify y- and x-axis as a space-separated string. Supports `"top"`, `"bottom"` y axis, and `"left"`, `"center"`, `"right"` x axis.
